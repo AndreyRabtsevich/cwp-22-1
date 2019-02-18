@@ -46,7 +46,6 @@ const Calculator = {
     }
 }
 
-module.exports = (expression, SomeText) => {
-    console.log(SomeText);
+module.exports = (expression) => {
     return Calculator.calc(expression);
 };
